@@ -1,15 +1,14 @@
-import logo from './logo.gif';
 import './App.css';
+import Logo from './components/Logo';
 
 function App() {
   return (
     <div className="App">
+      <Logo />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
         <h1><a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ElaineMoreira"
           target="_blank"
           rel="noopener noreferrer"
         >
